@@ -70,3 +70,15 @@ id_card_detection/
 ├── .gitignore
 └── data.yaml
 ```
+
+## Deployment Note
+
+The deployed Streamlit cloud version currently supports:
+- Image-based detection
+
+Live webcam detection works only on the local machine because OpenCV webcam access (`cv2.VideoCapture`) is not supported on Streamlit Cloud servers.
+
+To use live webcam detection:
+
+```bash
+python -m streamlit run streamlit_app.py
