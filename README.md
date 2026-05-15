@@ -24,7 +24,7 @@ The application supports:
 - Streamlit Dashboard
 - YOLOv8 Object Detection
 - Detection Statistics
-- Real-time AI Monitoring
+- Real-time Monitoring
 
 ---
 
